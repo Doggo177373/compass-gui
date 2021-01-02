@@ -1,0 +1,48 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "cp:gui",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"gui"
+				]
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": true
+			},
+			"minecraft:health": {
+				"value": 999999,
+				"max": 999999
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:physics": {},
+			"minecraft:inventory": {
+				"inventory_size": 27,
+				"private": false,
+				"container_type": "inventory"
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

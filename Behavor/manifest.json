@@ -1,0 +1,40 @@
+//bridge-file-version: #1
+{
+	"format_version": 2,
+	"header": {
+		"name": "Compass Menu",
+		"description": "By RomanMender",
+		"uuid": "a0086149-17cd-48a1-8421-f7e681be74dc",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0a30ebc0-1761-497d-bc05-75e0aa7b1bf7",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "93cc27f9-2b68-408b-b324-7865eb8652f0"
+		}
+	]
+}
