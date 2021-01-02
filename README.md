@@ -1,1 +1,1 @@
-# compass-gui
+# Compass-Gui
